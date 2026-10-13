@@ -7,11 +7,48 @@
 Ahmed Najma Wanjiku - 192797  [Graph and search tree] [Link]
 
  
-Mureithi Davidtelios -  [PEAS and agent design] [Link]
+Muriithi Davidtelios - 192082  [PEAS and agent design] [Link]
 
 
 Mungai Patrick -  [UCS and calculations] [Link] 
 ## 1. Self-driving trailer as an intelligent agent
+### 1.1 PEAS framework
+
+| PEAS component | Design elements |Why |
+|---|---|---|
+| **Performance measures** | Safe arrival, shortest route distance, fuel efficiency, timely arrival | Success is not just reaching Kisumu: safety and fuel consumption should also be considered.. |
+| **Environment** | Roads, traffic, pedestrians, junctions, signs, roadworks, weather and towns on the route | The trailer operates in a changing physical road environment. |
+| **Actuators** | Steering, engine, brakes, indicators, lights,horn | They let the agent act on its environment. |
+| **Sensors** | GPS, cameras,speed sensors |These supply information about the trailer's surroundings. |
+
+### 1.2 Five environment classifications
+
+| | Classification | Reasoning |
+|---|---|---|
+| | Partially observable | Obstacles and road conditions can be hidden or outside sensor range. |
+|  | Stochastic | Other drivers, traffic and weather introduce uncertain outcomes. |
+|  | Sequential | Earlier driving and routing decisions influence later states. |
+|  | Dynamic | Road users and traffic conditions change during decision-making. |
+| 
+
+
+## 2. Highway network: abstraction, directed graph and search tree
+
+### 2.1 Search problem formulation
+
+| Element | Definition |
+|---|---|
+| Agent | Self-driving trailer |
+| Initial state | Nairobi |
+| Goal test | Current town is Kisumu |
+| States | Towns represented as nodes in the simplified network |
+| Actions | Travel along a modelled directed road edge to the next town |
+| Transition model | Move from town `u` to directly connected town `v` |
+| Path cost | Sum of road distances in kilometres along the route |
+
+### 2.2 Abstraction and assumptions
+
+Each selected town is represented by a node, each selected road connection by a directed edge, and the driving distance by a non-negative edge weight. Individual bends, junctions, acceleration and steering decisions are not modelled. The network is deliberately limited to the three candidate routes considered by the group and it is not a complete map of every possible road in Kenya. Each edge is shown in the direction needed for Nairobi-to-Kisumu search. This does not mean the physical road is one-way.
 
 
 
