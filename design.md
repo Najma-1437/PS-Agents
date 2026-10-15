@@ -4,13 +4,14 @@
 ## Group members
 
 
-Ahmed Najma Wanjiku - 192797  [Graph and search tree] [Link]
+Ahmed Najma Wanjiku - 192797  [Graph and search tree] [https://github.com/Najma-1437/PS-Agents/commit/90569ba776c6648d3d2a85075401b0437b7fe8fa]
 
  
-Muriithi Davidtelios - 192082  [PEAS and agent design] [Link]
+Muriithi Davidtelios - 192082  [PEAS and agent design] [https://github.com/Najma-1437/PS-Agents/commit/0fb2a9cc7347e1c0ffbdb1be53295ca8c3e93bdd]
 
 
-Mungai Patrick - 191231 [UCS and calculations] [Link] 
+Mungai Patrick - 191231 [UCS and calculations] [https://github.com/Najma-1437/PS-Agents/commit/bcd0b113a1b1af6660c3f05f581c782022af11d7] 
+
 ## 1. Self-driving trailer as an intelligent agent
 ### 1.1 PEAS framework
 
