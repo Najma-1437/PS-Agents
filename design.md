@@ -167,4 +167,4 @@ $$\mathbf{\text{Nairobi} \longrightarrow \text{Naivasha} \longrightarrow \text{N
 
 ## group photo
 
-
+(images/Team-photo.jpeg)
