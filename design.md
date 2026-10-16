@@ -30,7 +30,7 @@ Mungai Patrick - 191231 [UCS and calculations] [https://github.com/Najma-1437/PS
 |  | Stochastic | Other drivers, traffic and weather introduce uncertain outcomes. |
 |  | Sequential | Earlier driving and routing decisions influence later states. |
 |  | Dynamic | Road users and traffic conditions change during decision-making. |
-| 
+
 
 
 ## 2. Highway network: abstraction, directed graph and search tree
@@ -167,4 +167,4 @@ $$\mathbf{\text{Nairobi} \longrightarrow \text{Naivasha} \longrightarrow \text{N
 
 ## group photo
 
-(images/Team-photo.jpeg)
+(/Team-photo.jpeg)
